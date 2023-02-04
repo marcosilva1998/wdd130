@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bitter&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color:rgba(233, 240, 175, 0.829);
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1,#hero-msg h4{
 
@@ -26,6 +29,10 @@ main section{
 }
 body {
     background-color:rgba(255, 255, 255, 0.733) ;
+    font-family: Bitter, Condensed, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:rgb(44, 116, 129)  ;
@@ -37,6 +44,10 @@ nav a:hover {
     background-color:rgba(100, 190, 212, 0.733)  ;
     color: #302e07; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: rgba(17, 17, 17, 0.733) ;
@@ -47,22 +58,33 @@ nav a:hover {
 }
 .msg{
     background-color: rgba(62, 136, 179, 0.733) ;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:rgb(44, 116, 129)   ;
     color :#000000;
+    padding: 25px 50px;
+    margin-top: 50px;
 }
 .home-title{
     color: #000000;
+    font-family: "Amatic SC",Helvetica,Calibri;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 h4{
     color: #551bdd;
 }
 .msg h2{
     color: #000000;
+    font-family: "Amatic SC",Helvetica,Calibri;
 }
 .msg p{
     color: #551bdd;
+    font-size: 0.8em;
+    padding-bottom: 15px ;
 }
 footer a {
     color: #d3cf7f; 
@@ -84,11 +106,24 @@ footer p {
 footer p a:hover{
     text-decoration: underline;
 }
-
-
-
-
-
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {  
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid rgba(100, 190, 212, 0.733);
+}
+main section img{
+    box-sizing: border-box;
+}
 
 
 
