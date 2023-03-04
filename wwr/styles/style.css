@@ -207,6 +207,63 @@ nav {
 }
 
 
+#faq-content{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(4,0.5fr);
+}
+#faq-title{
+    grid-column: 5/6;
+    text-align: right;
+    grid-row: 1/2;
+    font-size: 65px;
+
+}
+#faq-img{
+    grid-column: 6/7;   
+    width: 65px;
+    align-self: center;
+    grid-row: 1/2;
+}
+#faq-msg1{
+    grid-column: 2/4;   
+    grid-row: 2/5;
+    display: grid;
+    grid-template-rows: 150px auto
+    
+}
+
+
+#faq-msg2{
+    grid-column: 5/7;   
+    grid-row: 2/5;
+    display: grid;
+    grid-template-rows: 150px auto
+}
+#faq-msg3{
+    grid-column: 8/10;   
+    grid-row: 2/5;
+    display: grid;
+    grid-template-rows: 150px auto
+
+}
+
+main section section h2{
+    font-size: larger; 
+    grid-row: 1/2;
+    
+}
+main section section p{
+    font-size: medium;
+    grid-row: 2/3;
+}
+
+#faq-main{
+    background-color:#f5efff;
+}
+#faq-footer {
+    margin-top: 0px; 
+}
 @media screen and (max-width: 1100px) {
     #hero, .home-grid {
         display: block;
